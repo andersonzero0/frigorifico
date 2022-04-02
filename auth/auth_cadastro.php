@@ -7,8 +7,8 @@ $password_cdt = $_POST['password_cdt'];
 if(empty($user_cdt) && empty($password_cdt)){
     header('location: ../cadastrar.php');
 }else{
-    escreverData('_data-users/user.txt', $user_cdt);
-    escreverData('_data-users/password.txt', $password_cdt);
+    escreverDataC('_data-users/user.txt', $user_cdt);
+    escreverDataC('_data-users/password.txt', $password_cdt);
 ?>
 
 
