@@ -1,6 +1,6 @@
 <?php
 include '../functions/functions.php';
-
+/*erro*/
 $user_cdt = $_POST['user_cdt'];
 $password_cdt = $_POST['password_cdt'];
 
