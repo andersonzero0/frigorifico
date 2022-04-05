@@ -14,23 +14,36 @@ if(empty($user_cdt) && empty($password_cdt)){
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro - Frigorifico</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="../static/css/alert-compra.css">
+    <link rel="shortcut icon" href="static/images/favicon.ico" type="image/x-icon">
+
+    <title>FRIGORIFICO</title>
 </head>
 <body>
-    <header>
+
+    <header class="header">
+
+        <a href="../index.html">
+            <p id="main__header">FRIGORIFICO</p>
+        </a>
 
     </header>
 
-    <main>
-        <p>cadastro concluido</p>
-        <a href="../login.php">Fazer Login</a>
+    <main class="main">
+
+        <div class="aviso">
+            <p id="alert">CADASTRO FEITO COM SUCESSO!</p>
+            <p class="opc">AGORA FAÇA LOGIN: <a id="link" href="../login.php">Clique aqui</a></p>
+        </div>
+
     </main>
 
     <footer>
-
+        <p>Copyright &copy; GitHub: andersonzero0</p>
     </footer>
+
 </body>
 </html>
 
