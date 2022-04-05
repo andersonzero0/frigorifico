@@ -23,7 +23,7 @@ if(filesize('_data-users/user.txt') > 0 && filesize('_data-users/password.txt') 
         <meta charset="utf-8">
 
         <link rel="stylesheet" href="../static/css/alert-compra.css">
-        <link rel="shortcut icon" href="static/images/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="../static/images/favicon.ico" type="image/x-icon">
 
         <title>FRIGORIFICO</title>
     </head>
@@ -66,7 +66,7 @@ if(filesize('_data-users/user.txt') > 0 && filesize('_data-users/password.txt') 
     <meta charset="utf-8">
 
     <link rel="stylesheet" href="../static/css/alert-compra.css">
-    <link rel="shortcut icon" href="static/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../static/images/favicon.ico" type="image/x-icon">
 
     <title>FRIGORIFICO</title>
 </head>

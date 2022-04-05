@@ -17,7 +17,7 @@ if(empty($user_cdt) && empty($password_cdt)){
     <meta charset="utf-8">
 
     <link rel="stylesheet" href="../static/css/alert-compra.css">
-    <link rel="shortcut icon" href="static/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../static/images/favicon.ico" type="image/x-icon">
 
     <title>FRIGORIFICO</title>
 </head>
