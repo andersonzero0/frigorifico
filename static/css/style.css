@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+
+:root {
+    --color1: #012030;
+    --color2: #13678A;
+    --color3: #45C4B0;
+    --color4: #9AEBA3;
+    --color5: #DAFDBA;
+    --color_white: #FFF;
+    --color_black: #000;
+
+    --font_defaut: 'Roboto Condensed', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: var(--font_defaut);
+}
+
+body {
+    background-color: var(--color_white);
+}
+
+
+/*HEADER*/
+.header {
+    background-color: var(--color1);
+    width: 100%;
+    height: 8vh;
+}
+
+#main__header {
+    text-align: center;
+    color: var(--color_white);
+    font-size: 7vh;
+    font-weight: bold;
+}
+
+
+/*MAIN*/
+#p__main {
+    text-align: center;
+    background-color: var(--color_black);
+    color: var(--color_white);
+    width: 200px;
+    height: 30px;
+    margin: auto;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 30px auto 20px auto;
+    border-radius: 5px;
+}
+
+.conteiner {
+    text-align: center;
+    background-color: var(--color2);
+    margin: 10px auto 10px auto;
+    width: 250px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--color_white);
+    border-radius: 5px;
+}
+
+.conteiner:hover {
+    padding: 5px;
+    transition: 0.2s;
+    background-color: var(--color3);
+}
+
+a {
+    color: inherit;
+}
+
+.box {
+    margin: 100px auto auto auto;
+}
+
+
+/*FOOTER*/
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

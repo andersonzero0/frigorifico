@@ -13,9 +13,13 @@ function escreverDataC($nameArquivo, $conteudo){
 
 function lerData($nameArquivo){
     $arquivo = fopen($nameArquivo, 'r');
-    $tamanho = filesize($nameArquivo);
-    $dados = fread($arquivo, $tamanho);
-    return $dados;
+    if(filesize($nameArquivo) > 0) {
+        $tamanho = filesize($nameArquivo);
+        $dados = fread($arquivo, $tamanho);
+        return $dados;
+    }else{
+        fclose($arquivo);
+    }
 }
 
 function validarLogin(){

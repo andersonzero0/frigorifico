@@ -1,21 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comprar - Frigorifico</title>
+    <meta charset="utf-8">
+
+    <link rel="shortcut icon" href="static/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="static/css/comprar.css">
+
+    <title>FRIGORIFICO - Comprar</title>
 </head>
 <body>
-    <form action="_verif_compra/registrar_compra.php" method="post">
-        <legend>Comprar</legend>
 
-        <label for="produto">Produto:</label>
-        <input type="text" name="produto" id="produto"> <br>
+    <header class="header">
 
-        <label for="valor">Valor:</label>
-        <input type="text" name="valor" id="valor"> <br>
+        <a href="index.html">
+            <p id="main__header">FRIGORIFICO</p>
+        </a>
 
-        <input type="submit" value="Comprar">
-    </form>
+    </header>
+
+    <main class="main">
+        <div class="box_compras">
+            <form id="form" action="_verif_compra/registrar_compra.php" method="POST">
+                <legend class="title">FAZER COMPRAS</legend>
+
+                <div class="box__label">
+                    <label class="label" for="produto">PRODUTO:</label>
+                    <input class="input" type="text" name="produto" id="produto"> <br>
+                </div>
+
+                <div class="box__label">
+                    <label class="label" for="valor">VALOR:</label>
+                    <input class="input" type="text" name="valor" id="valor"> <br>
+                </div>
+
+                <div class="button">
+                    <input id="comprar" type="submit" value="COMPRAR">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; GitHub: andersonzero0</p>
+    </footer>
+
 </body>
 </html>
