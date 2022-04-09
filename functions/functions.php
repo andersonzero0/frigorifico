@@ -30,6 +30,7 @@ if(time() - $_SESSION['ultimaAtividade'] <= 60){
     $_SESSION['logado'] = false;
     session_unset();
     session_destroy();
-}
+    header('location: ../sessaoexpirada.php');
+    }
 }
 ?>
